@@ -467,8 +467,8 @@ void sprawdz_traf( GtkWidget *widget, struct pair *mydata){
 				}
 				else{	
 					gtk_button_set_label(GTK_BUTTON(battlebuttons[mydata->first][mydata->second]),"X");
-					posl--;
-					if(posl==0){
+					ptsl--;
+					if(ptsl==0){
 						winner("2");
 					}
 					else
